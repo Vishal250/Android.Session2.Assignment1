@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vishal.vibgyorscreen.Screen">
+
+    <TextView android:text="RED"
+        android:id="@+id/TextView01"
+        android:layout_height="wrap_content"
+        android:background="#f00"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#000"
+        ></TextView>
+    <TextView android:text="ORANGE"
+        android:id="@+id/TextView02"
+        android:layout_height="wrap_content"
+        android:background="#ffa500"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#000"
+        ></TextView>
+    <TextView android:text="YELLOW"
+        android:id="@+id/TextView03"
+        android:layout_height="wrap_content"
+        android:background="#ffff00"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#000"
+        ></TextView>
+    <TextView android:text="YELLOW"
+        android:id="@+id/TextView04"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#000"
+        ></TextView>
+
+    <TextView android:text="BLUE"
+        android:id="@+id/TextView05"
+        android:layout_height="wrap_content"
+        android:background="#00f"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#fff"
+        ></TextView>
+
+    <TextView android:text="INDIGO"
+        android:id="@+id/TextView06"
+        android:layout_height="wrap_content"
+        android:background="#4b0082"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#fff"
+        ></TextView>
+
+    <TextView android:text="VIOLET"
+        android:id="@+id/TextView07"
+        android:layout_height="wrap_content"
+        android:background="#ee82ee"
+        android:layout_width="fill_parent"
+        android:layout_weight=".14"
+        android:gravity="center"
+        android:textColor="#000"
+        ></TextView>
+
+
+</LinearLayout>
